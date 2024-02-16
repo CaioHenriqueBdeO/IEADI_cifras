@@ -1,0 +1,307 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IEADI Cifras</title>
+		<script src="/docs/5.3/assets/js/color-modes.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="js/appmodals.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link href="css/carousel.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<section class="header">
+			<div class="container">
+				<nav class="navbar navbar-expand-md pl-0 pr-0">
+					<a class="navbar-brand" href="#">
+						<img src="img/IEADIlogo.png" width="100" class="img-logo">
+					</a>
+					<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+						<span class="navbar-toggler-icon">
+							<i class="fas fa-bars"></i>
+						</span>	
+					</button>
+					<div class="collapse navbar-collapse menu-principal" id="navbarNavDropdown">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link"><b>Home</b></a>
+							</li>
+							<li class="nav-item">
+								<a href="festividade.html" class="nav-link"><b>Festividade</b></a>
+							</li>
+							<li class="nav-item">
+								<a href="cifras.html" class="nav-link"><b>Cifras</b></a>
+							</li>
+							<li class="nav-item">
+								<a href="bdhinos.html" class="nav-link"><b>BD Hinos</b></a>
+							</li>
+						</ul>
+					</div>	
+				</nav>
+			</div>	
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="cartoes">
+        			<div class="slide-container swiper">
+        				<div class="slide-content">
+          					<div class="card-wrapper swiper-wrapper">
+            					<div class="card swiper-slide">
+              						<div class="image-content">
+                						<span class="overlay"></span>
+
+                						<div class="card-image">
+                  							<img src="img/kids.jpg" alt="" class="card-img">
+                						</div>
+              						</div>
+
+              						<div class="card-content">
+                						<h2 class="name">Crianças</h2>
+                  						<p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            			<a class="btn button" onclick="cifras.metodos.abrirModalKids()" id="abrirModalCifrasKids">Ver</a>
+                        			</div>
+                    			</div>
+                    			<div class="card swiper-slide">
+                        			<div class="image-content">
+                            			<span class="overlay"></span>
+
+                            			<div class="card-image">
+                                			<img src="img/adolescentes.jpg" alt="" class="card-img">
+                            			</div>
+                        			</div>
+
+                        			<div class="card-content">
+                            			<h2 class="name">Adolescentes</h2>
+                            			<p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            			<a class="btn button" onclick="cifras.metodos.abrirModalTeens()" id="abrirModalCifrasTeens">Ver</a>
+                        			</div>
+                    			</div>
+                    			<div class="card swiper-slide">
+                        			<div class="image-content">
+                            			<span class="overlay"></span>
+
+                            			<div class="card-image">
+                                			<img src="img/jovens2.jpg" alt="" class="card-img">
+                            			</div>
+                        			</div>
+
+                        			<div class="card-content">
+                            			<h2 class="name">Jovens</h2>
+                            			<p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            			<a class="btn button" onclick="cifras.metodos.abrirModalJovens()" id="abrirModalCifrasJovens">Ver</a>
+                        			</div>
+                    			</div>
+                    			<div class="card swiper-slide">
+                        			<div class="image-content">
+                            			<span class="overlay"></span>
+
+                            			<div class="card-image">
+                                			<img src="img/irmãs.jpg" alt="" class="card-img">
+                            			</div>
+                        			</div>
+
+                        			<div class="card-content">
+                            			<h2 class="name">Irmãs</h2>
+                            			<p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            			<a class="btn button" onclick="cifras.metodos.abrirModalIrmas()" id="abrirModalCifrasIrmas">Ver</a>
+                        			</div>
+                    			</div>
+                    			<div class="card swiper-slide">
+                        			<div class="image-content">
+                            			<span class="overlay"></span>
+
+                            			<div class="card-image">
+                                			<img src="img/coral.jpg" alt="" class="card-img">
+                            			</div>
+                        			</div>
+
+                        			<div class="card-content">
+                            			<h2 class="name">Coral</h2>
+                            			<p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            			<a class="btn button" onclick="cifras.metodos.abrirModalCoral()" id="abrirModalCifrasCoral">Ver</a>
+                        			</div>
+                    			</div>
+                    			
+                    
+                    		</div>
+                		</div>
+            		</div>
+
+            		<div class="swiper-button-next swiper-navBtn"></div>
+            		<div class="swiper-button-prev swiper-navBtn"></div>
+            		<div class="swiper-pagination"></div>
+        		</div>
+      		</div>
+		</section>
+
+		<div class="modal-cifras hidden" id="modalCifras">
+			<div class="container">
+				<div class="modal-header">
+                	<h3 class="modal-title">Cifras</h3>
+                	<button type="button" class="btn btn-fechar" id="btnFechar" onclick="cifras.metodos.fecharModal()" data-bs-dismiss="modal" aria-label="Close">Fechar</button>
+            	</div>
+            	<hr>
+			</div>
+
+			<div class="m-body">
+				<div class="container">
+					
+					<div class="m-kids hidden" id="pasta-kids">
+						<div class="descricao-modal">
+							<h1 class="title-pasta">Cordeirinhos de Cristo</h1>
+        					<p>Note que os hinos estão organizados por ordem alfabética e não ordem de chegada na pasta.</p>
+      					</div>
+      					<div class="mt-5">
+        					<table class="table table-striped">
+          						<thead class="table-dark">
+            						<tr>
+              							<th scope="col">#</th>
+              							<th scope="col">Nome</th>
+              							<th scope="col">Cantor</th>
+              							<th scope="col">Grupo</th>
+            						</tr>
+          						</thead>
+          						<tbody>
+            						<tr>
+              							<th scope="row">1</th>
+              								<td><a href="#">Jesus.</a></td>
+              								<td>Bianca Azevedo.</td>
+              								<td>Crianças</td>
+            						</tr>
+          						</tbody>
+        					</table>
+						</div>
+					</div>
+
+					<div class="m-teens hidden" id="pasta-teens">
+						<div class="descricao-modal">
+							<h1 class="title-pasta">Geração de Samuel</h1>
+        					<p>Note que os hinos estão organizados por ordem alfabética e não ordem de chegada na pasta.</p>
+      					</div>
+      					<div class="mt-5">
+        					<table class="table table-striped">
+          						<thead class="table-dark">
+            						<tr>
+              							<th scope="col">#</th>
+              							<th scope="col">Nome</th>
+              							<th scope="col">Cantor</th>
+              							<th scope="col">Grupo</th>
+            						</tr>
+          						</thead>
+          						<tbody>
+            						<tr>
+              							<th scope="row">1</th>
+              								<td><a href="cifras/adolescentes/noTempoCerto.html">No tempo certo.</a></td>
+              								<td>Monique Grazielle.</td>
+              								<td>Adolescentes</td>
+            						</tr>
+            						<tr>
+              							<th scope="row">2</th>
+              								<td><a href="cifras/adolescentes/saladotrono.html">Sala do Trono</a></td>
+              								<td>UMADC</td>
+              								<td>Adolescentes</td>
+            						</tr>
+            						<tr>
+              							<th scope="row">3</th>
+              								<td><a href="cifras/adolescentes/medleyVemsenhor.html">Vem Senhor.</a></td>
+              								<td>Stella Laura.</td>
+              								<td>Adolescentes</td>
+            						</tr>
+          						</tbody>
+        					</table>
+						</div>
+					</div>	
+
+					<div class="m-jovens hidden" id="pasta-jovens">
+						<div class="descricao-modal">
+							<h1 class="title-pasta">Jovens para Cristo</h1>
+        					<p>Note que os hinos estão organizados por ordem alfabética e não ordem de chegada na pasta.</p>
+      					</div>
+      					<div class="mt-5">
+        					<table class="table table-striped">
+          						<thead class="table-dark">
+            						<tr>
+              							<th scope="col">#</th>
+              							<th scope="col">Nome</th>
+              							<th scope="col">Cantor</th>
+              							<th scope="col">Grupo</th>
+            						</tr>
+          						</thead>
+          						<tbody>
+            						<tr>
+              							<th scope="row">1</th>
+              								<td><a href="#">Santo Espirito.</a></td>
+              								<td>Paulo César Baruk.</td>
+              								<td>Jovens</td>
+            						</tr>
+          						</tbody>
+        					</table>
+						</div>
+					</div>
+
+					<div class="m-irmas hidden" id="pasta-irmas">
+						
+					</div>
+
+					<div class="m-coral hidden" id="pasta-coral">
+						<div class="descricao-modal">
+							<h1 class="title-pasta">Coral</h1>
+        					<p>Note que os hinos estão organizados por ordem alfabética e não ordem de chegada na pasta.</p>
+      					</div>
+      					<div class="mt-5">
+        					<table class="table table-striped">
+          						<thead class="table-dark">
+            						<tr>
+              							<th scope="col">#</th>
+              							<th scope="col">Nome</th>
+              							<th scope="col">Cantor</th>
+              							<th scope="col">Grupo</th>
+            						</tr>
+          						</thead>
+          						<tbody>
+            						<tr>
+              							<th scope="row">1</th>
+              								<td><a href="cifras/coral/penseduasvezes.html">Pense deuas vezes</a></td>
+              								<td>Voz da verdade</td>
+              								<td>Coral</td>
+            						</tr>
+          						</tbody>
+        					</table>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+		<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	</body>
+
+	<script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+</html>
